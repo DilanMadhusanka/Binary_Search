@@ -1,5 +1,8 @@
-package com.springexample.SimpleSpringExample;
+package com.spring.basic.springin5steps;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class BubbleSortAlgorithm implements SortAlgorithm {
 	public int[] sort(int[] numbers) {
 		
